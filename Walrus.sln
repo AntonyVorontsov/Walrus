@@ -2,9 +2,27 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76042240-72B7-49AF-B070-DFE157B64D1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walrus.Configuration", "src\Walrus.Configuration\Walrus.Configuration.csproj", "{81A86466-F3DE-4607-9A8C-35A464A767FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walrus.Producer", "src\Walrus.Producer\Walrus.Producer.csproj", "{775AD0F3-43FB-4FFA-81DE-8BA8D095B690}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81A86466-F3DE-4607-9A8C-35A464A767FD} = {76042240-72B7-49AF-B070-DFE157B64D1E}
+		{775AD0F3-43FB-4FFA-81DE-8BA8D095B690} = {76042240-72B7-49AF-B070-DFE157B64D1E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A86466-F3DE-4607-9A8C-35A464A767FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A86466-F3DE-4607-9A8C-35A464A767FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A86466-F3DE-4607-9A8C-35A464A767FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A86466-F3DE-4607-9A8C-35A464A767FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775AD0F3-43FB-4FFA-81DE-8BA8D095B690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775AD0F3-43FB-4FFA-81DE-8BA8D095B690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775AD0F3-43FB-4FFA-81DE-8BA8D095B690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775AD0F3-43FB-4FFA-81DE-8BA8D095B690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
